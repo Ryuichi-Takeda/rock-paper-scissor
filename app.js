@@ -37,7 +37,7 @@ choices.forEach(choice =>{
       computerPoints += 1;
     }
     //表示
-    player_point.textContent = playerPoints;勝ち
+    player_point.textContent = playerPoints;
     computer_point.textContent = computerPoints;
   })
 });
