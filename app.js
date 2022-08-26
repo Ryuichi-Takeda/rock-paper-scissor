@@ -29,15 +29,15 @@ choices.forEach(choice =>{
       computerChoice.src="./assets/scissors.png";
     }
     var playerNumber = this.getAttribute("data-number");
-    // playerNumber = playerNumber + 0;
 
     playerNumber = Number(playerNumber);//数字にする
     if((playerNumber-1)%3 == computerNumber%3){//playerの勝ち
       playerPoints += 1;
-    }else if((playerNumber+1)%3 == computerNumber%3){
+    }else if((playerNumber+1)%3 == computerNumber%3){//computerの勝ち
       computerPoints += 1;
     }
-    player_point.textContent = playerPoints;
+    //表示
+    player_point.textContent = playerPoints;勝ち
     computer_point.textContent = computerPoints;
   })
 });
