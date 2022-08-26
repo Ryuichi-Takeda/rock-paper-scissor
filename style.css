@@ -1,0 +1,74 @@
+.pointsDisplayer{
+  display: flex;
+  padding: 2% 20% 2% 20%;
+  justify-content: space-around;
+    align-items: center;
+}
+
+.computerPointContainer{
+   /* float: left;  */
+  /* margin: 0 0 0 auto; */
+}
+
+.intro_start{
+  /* display: block; */
+  margin: 0 auto 0 auto;
+  background-color: green;
+  width: 200px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.player_point{
+  text-align: center;
+}
+.computer_point{
+  text-align: center;
+}
+.intro{
+  justify-content: center;
+  display: block;
+  /* align-items: center; */
+}
+
+.title{
+  margin: 0 auto 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.none{
+  display: none;
+}
+
+.optionContainer{
+  display: flex;
+}
+
+.center{
+  justify-content: space-around;
+    align-items: center;
+}
+
+.order{
+  text-align: center;
+}
+
+.img{
+  /* margin: 0 auto 0 auto; */
+  text-align: center;
+
+}
+
+.reverse{
+  transform: scale(-1, 1);
+}
+
+.option{
+  background-color: green;
+  width: 100px;
+  height: 50px;
+  /* padding: auto 0 auto 0; */
+  text-align: center;
+  line-height: 50px;
+}

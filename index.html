@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rock paper and scissors</title>
+  </head>
+  <body>
+    <div>
+      <div class="pointsDisplayer">
+        <div class="playerPointContainer">
+          <div class="player">Player</div>
+          <div id="player_point" class="player_point">0</div>
+        </div>
+        <div class="computerPointContainer">
+          <div class="computer">Computer</div>
+        <div id="computer_point" class="computer_point">0</div>
+      </div>
+      </div>
+      <div id="intro" class="intro">
+        <div class="title">Rock Paper and Scissors</div>
+        <div id="intro_start" class="intro_start">Let's Play</div>
+      </div>
+      <div id="game" class="game none center">
+        <div class="order">Choose an option</div>
+        <div class="center img">
+          <img src="./assets/rock.png" alt="" class="reverse" id="playerChoice">
+          <img src="./assets/rock.png" alt="" id="computerChoice">
+        </div>
+        <div class="optionContainer center">
+          <div class="option" id="rock" data-choice="./assets/rock.png" data-number='1'>rock</div>
+          <div class="option" id="paper" data-choice="./assets/paper.png" data-number='2'>paper</div>
+          <div class="option" id="scissors" data-choice="./assets/scissors.png" data-number='3'>scissors</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
